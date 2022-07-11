@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style src="stilo.css" rel="stylesheet"></style>
+</head>
+
+<body>
+    <center>
+        <h3>Calculadora simples HTML, CSS e JavaScript</h3>
+        <table border="3">
+            <tr>
+                <td align="center" valign="center" colspan="3"><input type="text" id="result"/></td>
+                <td align="center" valign="center"><input type="button" value="c" onclick="clr()"/></td>
+            </tr>
+            <tr>
+                <td align="center" valign="center"><input type="button" value="1" onclick="view('1')" /></td>
+                <td align="center" valign="center"><input type="button" value="2" onclick="view('2')" /></td>
+                <td align="center" valign="center"><input type="button" value="3" onclick="view('3')" /></td>
+                <td align="center" valign="center"><input type="button" value="/" onclick="view('/')" /></td>
+            </tr>
+            <tr>
+                <td align="center" valign="center"><input type="button" value="4" onclick="view('4')" /></td>
+                <td align="center" valign="center"><input type="button" value="5" onclick="view('5')" /></td>
+                <td align="center" valign="center"><input type="button" value="6" onclick="view('6')" /></td>
+                <td align="center" valign="center"><input type="button" value="-" onclick="view('-')" /></td>
+            </tr>
+            <tr>
+                <td align="center" valign="center"><input type="button" value="7" onclick="view('7')" /></td>
+                <td align="center" valign="center"><input type="button" value="8" onclick="view('8')" /></td>
+                <td align="center" valign="center"><input type="button" value="9" onclick="view('9')" /></td>
+                <td align="center" valign="center"><input type="button" value="+" onclick="view('+')" /></td>
+            </tr>
+            <tr>
+                <td align="center" valign="center"><input type="button" value="." onclick="view('.')" /></td>
+                <td align="center" valign="center"><input type="button" value="0" onclick="view('0')" /></td>
+                <td align="center" valign="center"><input type="button" value="=" onclick="compute('=')" /></td>
+                <td align="center" valign="center"><input type="button" value="*" onclick="view('*')" /></td>
+            </tr>
+        </table>
+    </center>
+    <script src="cal.js"></script>
+</body>
+
+</html>
